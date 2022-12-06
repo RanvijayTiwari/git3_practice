@@ -1,6 +1,16 @@
-let prime=13;
-for(let i=2; i<prime; i++){
-if(prime%i==0){
-count++}
+let count=0;
+function check(m){
+let count=0;
+for(let i=0; i<m; i++){
+if(m%i==0){
+count++;
+}
+If(count==2){
+return true
+}else{
+return false}
+}
 
-count==1? console.log("its prime"):console.log("Not prime")
+for(let i=0; i<15; i++){
+if(check(i)==true){
+console.log(i,"prime")
