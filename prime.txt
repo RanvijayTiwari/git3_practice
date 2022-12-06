@@ -1,16 +1,21 @@
-let count=0;
+
+
 function check(m){
-let count=0;
-for(let i=0; i<m; i++){
+let factor=0;
+for(let i=2; i<=m; i++){
 if(m%i==0){
-count++;
+factor++;
 }
-If(count==2){
+If(factor==1){
 return true
 }else{
 return false}
 }
 
-for(let i=0; i<15; i++){
+for(let i=0; i<=15; i++){
 if(check(i)==true){
-console.log(i,"prime")
+console.log(i,"prime")}else{
+console.log(i,"not prime")}
+
+
+
